@@ -275,7 +275,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/3494350359103570",
+					url: "https://space.bilibili.com",
 					external: true,
 					icon: "fa7-brands:bilibili",
 				},
@@ -363,7 +363,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibili",
 			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/3494350359103570",
+			url: "https://space.bilibili.com/",
 		},
 		{
 			name: "Gitee",
