@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "pgntgz的小站",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "public/assets/home/仿k.png",
+		icon: "public/assets/home/home2.png",
 		// 网站Logo图片路径
-		logo: "public/assets/home/仿k.png",
+		logo: "public/assets/home/home2.png",
 	},
 
 	// 页面自动缩放配置
@@ -106,7 +106,7 @@ export const siteConfig: SiteConfig = {
 	// 壁纸模式配置
 	wallpaperMode: {
 		// 默认壁纸模式：banner=顶部横幅，fullscreen=全屏壁纸，none=无壁纸
-		defaultMode: "banner",
+		defaultMode: "both",
 		// 整体布局方案切换按钮显示设置（默认："desktop"）
 		// "off" = 不显示
 		// "mobile" = 仅在移动端显示
@@ -140,7 +140,7 @@ export const siteConfig: SiteConfig = {
 
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
-			interval: 1.5, // 轮播间隔时间（秒）
+			interval: 2.5, // 轮播间隔时间（秒）
 		},
 
 		waves: {
@@ -231,20 +231,20 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.webp",
-			"/assets/desktop-banner/2.webp",
-			"/assets/desktop-banner/3.webp",
-			"/assets/desktop-banner/4.webp",
-			"/assets/desktop-banner/5.webp",
-			"/assets/desktop-banner/6.webp",
+			"/assets/desktop-banner/osu1.webp",
+			"/assets/desktop-banner/Kleinne Lui.webp",
+			"/assets/desktop-banner/pj1.webp",
+			"/assets/desktop-banner/pj2.webp",
+			"/assets/desktop-banner/osu3.webp",
+			"/assets/desktop-banner/osu4.webp",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/1.webp",
-			"/assets/mobile-banner/2.webp",
-			"/assets/mobile-banner/3.webp",
-			"/assets/mobile-banner/4.webp",
-			"/assets/mobile-banner/5.webp",
-			"/assets/mobile-banner/6.webp",
+			"/assets/desktop-banner/osu1.webp",
+			"/assets/desktop-banner/Kleinne Lui.webp",
+			"/assets/desktop-banner/pj1.webp",
+			"/assets/desktop-banner/pj2.webp",
+			"/assets/desktop-banner/osu3.webp",
+			"/assets/desktop-banner/osu4.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -442,7 +442,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "开业喵", // 公告内容
+	content: "开业喵,我是废物，bug好多", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -623,10 +623,10 @@ export const pioConfig: import("./types/config").PioConfig = {
 			"让我琢磨琢磨sdk3兼容再请mzk本尊吧",
 			"杂鱼",
 			"男的来不了了",
-			"变态",
+			"mzk博客要用mzk才对吧",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
+		home: "回家里", // 首页提示
+		skin: ["换了人间"], // 换装提示
 		close: "男的走了.jpg", // 关闭提示
 		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
 	},
