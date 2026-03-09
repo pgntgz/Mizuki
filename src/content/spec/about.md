@@ -8,7 +8,7 @@
 
 一个啥也不会但就是喜欢折腾的人
 ###### 基本情况：
-- 中国人
+
 - Arch GNU/Linux使用者，目前的配置是hyprland+end-4，基本是靠脚本，没做什么自定义就不放脚本了
 - nothing使用者，很明显是为了root
 - 左逼，进步党，接近社民和民社，工业党（首页引用马前卒有点幽默）
@@ -21,7 +21,7 @@ TG和墙内账号不公开
 
 如果是邮件请发 2f4fsi1g6@mozmail.com
 
-如果你是隐私控可以使用GPG加密我公开我的公钥，我会提供我的simpleX
+如果你是隐私控，可以使用GPG加密，下面是我公开我的公钥
 
 > [!我的GPG公钥]
 > -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -45,7 +45,7 @@ TG和墙内账号不公开
 3. **中转** 我的其他项目也会挂在同一个域名下，目前只做了pjsk贴纸生成器
 ##### 声明
 - 此网站源码开源继承Mizuki项目的 Apache License, Version 2.0许可证[许可](https://www.apache.org/licenses/LICENSE-2.0)
-- 我不拥有网站图片的版权©其中部分属于osu！和创作者部分属于Project Sekai的版权方或其他被引用作者，如果违反合理使用规则请联系删除
+- 我不拥有网站首页图片的版权©其中部分属于osu！和创作者部分属于Project Sekai的版权方或其他被引用作者，如果违反合理使用规则请联系删除
 - 网站头像使用ai生成，参考了Yoisaki Kanade，鉴于合理使用规则，提示词没有投喂完整特征图片和具体人名和knd具体特征的提示词，并且刻意修改了很多明显特征
-- 无特殊声明本人在此站发布的原创内容均使用CC BY 4.0（知识共享 署名 4.0）发布[许可](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)虽然都是估计大粪
+- 无特殊声明本人在此站发布的原创内容均使用[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)（知识共享 署名 非商业 相同方式共享 4.0）发布，虽然都是些大粪
 
