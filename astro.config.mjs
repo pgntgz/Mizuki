@@ -31,9 +31,10 @@ import { remarkFixGithubAdmonitions } from "./src/plugins/remark-fix-github-admo
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.siteURL,
+	site: "https://pgntgz.top", // 直接写死你的域名
 	base: "/",
 	trailingSlash: "always",
+	// ... 其他配置
 
 	output: "static",
 
