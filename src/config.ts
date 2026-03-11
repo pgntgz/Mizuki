@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "pgntgz的小站",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/images/avatar.webp",
+		icon: "public/assets/home/home.png",
 		// 网站Logo图片路径
-		logo: "assets/images/avatar.webp",
+		logo: "public/assets/home/home.png",
 	},
 
 	// 页面自动缩放配置
@@ -371,9 +371,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/pgntgz",
 		},
 		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
+			name: "android",
+			icon: "simple-icons:android",
+			url: "https://source.android.com/",
 		},
 		{
 			name: "Discord",
