@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "pgntgz的小站",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "public/assets/home/home2.png",
+		icon: "assets/images/avatar.webp",
 		// 网站Logo图片路径
-		logo: "public/assets/home/home2.png",
+		logo: "assets/images/avatar.webp",
 	},
 
 	// 页面自动缩放配置
@@ -354,21 +354,16 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "pgntgz",
-	bio: "一个立志用低质量内容污染搜索引擎的废物",
+	bio: "创造是人类的天性",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
 	},
 	links: [
 		{
-			name: "Bilibili",
-			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://ys.mihoyo.com/",
+			name: "Arch",
+			icon: "fa7-brands:arch-linux",
+			url: "https://archlinux.org/",
 		},
 		{
 			name: "GitHub",
@@ -429,7 +424,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
 		envId: "https://twikoo.vercel.app",
 		lang: SITE_LANG,
@@ -464,7 +459,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 
 export const footerConfig: FooterConfig = {
 	enable: false, // 是否启用Footer HTML注入功能
-	customHtml: "", // HTML格式的自定义页脚信息，例如备案号等，默认留空
+	customHtml: "无特殊声明本人在此站发布的原创内容均使用CC BY-NC-SA 4.0（知识共享 署名 非商业 相同方式共享 4.0）发布", // HTML格式的自定义页脚信息，例如备案号等，默认留空
 	// 也可以直接编辑 FooterConfig.html 文件来添加备案号等自定义内容
 	// 注意：若 customHtml 不为空，则使用 customHtml 中的内容；若 customHtml 留空，则使用 FooterConfig.html 文件中的内容
 	// FooterConfig.html 可能会在未来的某个版本弃用
