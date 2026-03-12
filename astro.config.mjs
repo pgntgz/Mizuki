@@ -38,7 +38,39 @@ export default defineConfig({
 
 	output: "static",
 
-	integrations: [
+	integrations: [umami({
+		shareUrl: false,
+	}),
+	swup({
+		theme: false,
+		// ... swup 的其他配置保持不变
+	}),
+	icon(),
+							expressiveCode({
+								// ... 你之前的配置
+							}),
+							svelte({
+								preprocess: vitePreprocess(),
+							}),
+							sitemap({
+								i18n: {
+									defaultLocale: 'zh-cn',
+										locales: { 'zh-cn': 'zh-cn' },
+								},
+								filter: (page) => !page.includes('/404') && !page.includes('/rss'),
+									serialize(item) {
+										if (/posts\//.test(item.url)) {
+											item.changefreq = 'weekly';
+											item.priority = 0.9;
+											item.lastmod = new Date();
+										} else {
+											item.changefreq = 'monthly';
+											item.priority = 0.5;
+										}
+										return item;
+									},
+							}),
+	], // <-- integrations 数组在这里结束
 		umami({
 			shareUrl: false,
 		}),
