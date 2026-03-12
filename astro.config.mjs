@@ -31,23 +31,84 @@ import { remarkFixGithubAdmonitions } from "./src/plugins/remark-fix-github-admo
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://pgntgz.top", // 直接写死你的域名
+	site: "https://pgntgz.top", //
 	base: "/",
-	trailingSlash: "always",
-	// ... 其他配置
+	trailingSlash: "always", //
 
 	output: "static",
 
-	integrations: [umami({
-		shareUrl: false,
-	}),
-	swup({
-		theme: false,
-		// ... swup 的其他配置保持不变
-	}),
-	icon(),
+	integrations: [
+		umami({
+			shareUrl: false,
+		}),
+		swup({
+			theme: false,
+			animationClass: "transition-swup-",
+			containers: ["main"],
+			smoothScrolling: false,
+			cache: true,
+			preload: true,
+			accessibility: true,
+			updateHead: true,
+			updateBodyClass: false,
+			globalInstance: true,
+			resolveUrl: (url) => url,
+			 animateHistoryBrowsing: false,
+			 skipPopStateHandling: (event) => {
+				 return (
+					 event.state &&
+					 event.state.url &&
+					 event.state.url.includes("#")
+				 );
+			 },
+		}),
+		icon(),
 							expressiveCode({
-								// ... 你之前的配置
+								themes: ["github-light", "github-dark"],
+								plugins: [
+									pluginCollapsibleSections(),
+										   pluginLineNumbers(),
+										   pluginLanguageBadge(),
+										   pluginCustomCopyButton(),
+								],
+								defaultProps: {
+									wrap: true,
+									overridesByLang: {
+										shellsession: { showLineNumbers: false },
+										bash: { frame: "code" },
+										shell: { frame: "code" },
+										sh: { frame: "code" },
+										zsh: { frame: "code" },
+									},
+								},
+								styleOverrides: {
+									codeBackground: "var(--codeblock-bg)",
+										   borderRadius: "0.75rem",
+										   borderColor: "none",
+										   codeFontSize: "0.875rem",
+										   codeFontFamily:
+										   "'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+										   codeLineHeight: "1.5rem",
+										   frames: {
+											   editorBackground: "var(--codeblock-bg)",
+										   terminalBackground: "var(--codeblock-bg)",
+										   terminalTitlebarBackground: "var(--codeblock-bg)",
+										   editorTabBarBackground: "var(--codeblock-bg)",
+										   editorActiveTabBackground: "none",
+										   editorActiveTabIndicatorBottomColor: "var(--primary)",
+										   editorActiveTabIndicatorTopColor: "none",
+										   editorTabBarBorderBottomColor: "var(--codeblock-bg)",
+										   terminalTitlebarBorderBottomColor: "none",
+										   },
+										   textMarkers: {
+											   delHue: 0,
+					  insHue: 180,
+					  markHue: 250,
+										   },
+								},
+								frames: {
+									showCopyToClipboardButton: false,
+								},
 							}),
 							svelte({
 								preprocess: vitePreprocess(),
@@ -70,85 +131,6 @@ export default defineConfig({
 										return item;
 									},
 							}),
-	], // <-- integrations 数组在这里结束
-		umami({
-			shareUrl: false,
-		}),
-		swup({
-			theme: false,
-			animationClass: "transition-swup-",
-			containers: ["main"],
-			smoothScrolling: false, // 禁用平滑滚动以提升性能，避免与锚点导航冲突
-			cache: true,
-			preload: true, // swup 默认鼠标悬停预加载
-			accessibility: true,
-			updateHead: true,
-			updateBodyClass: false,
-			globalInstance: true,
-			// 滚动相关配置优化
-			resolveUrl: (url) => url,
-			animateHistoryBrowsing: false,
-			skipPopStateHandling: (event) => {
-				// 跳过锚点链接的处理，让浏览器原生处理
-				return (
-					event.state &&
-					event.state.url &&
-					event.state.url.includes("#")
-				);
-			},
-		}),
-		icon(),
-		expressiveCode({
-			themes: ["github-light", "github-dark"],
-			plugins: [
-				pluginCollapsibleSections(),
-				pluginLineNumbers(),
-				pluginLanguageBadge(),
-				pluginCustomCopyButton(),
-			],
-			defaultProps: {
-				wrap: true,
-				overridesByLang: {
-					shellsession: { showLineNumbers: false },
-					bash: { frame: "code" },
-					shell: { frame: "code" },
-					sh: { frame: "code" },
-					zsh: { frame: "code" },
-				},
-			},
-			styleOverrides: {
-				codeBackground: "var(--codeblock-bg)",
-				borderRadius: "0.75rem",
-				borderColor: "none",
-				codeFontSize: "0.875rem",
-				codeFontFamily:
-					"'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-				codeLineHeight: "1.5rem",
-				frames: {
-					editorBackground: "var(--codeblock-bg)",
-					terminalBackground: "var(--codeblock-bg)",
-					terminalTitlebarBackground: "var(--codeblock-bg)",
-					editorTabBarBackground: "var(--codeblock-bg)",
-					editorActiveTabBackground: "none",
-					editorActiveTabIndicatorBottomColor: "var(--primary)",
-					editorActiveTabIndicatorTopColor: "none",
-					editorTabBarBorderBottomColor: "var(--codeblock-bg)",
-					terminalTitlebarBorderBottomColor: "none",
-				},
-				textMarkers: {
-					delHue: 0,
-					insHue: 180,
-					markHue: 250,
-				},
-			},
-			frames: {
-				showCopyToClipboardButton: false,
-			},
-		}),
-		svelte({
-			preprocess: vitePreprocess(),
-		}),
-		sitemap(),
 	],
 	markdown: {
 		remarkPlugins: [
@@ -179,11 +161,11 @@ export default defineConfig({
 					components: {
 						github: GithubCardComponent,
 						note: (x, y) => AdmonitionComponent(x, y, "note"),
-						tip: (x, y) => AdmonitionComponent(x, y, "tip"),
-						important: (x, y) =>
+							tip: (x, y) => AdmonitionComponent(x, y, "tip"),
+							important: (x, y) =>
 							AdmonitionComponent(x, y, "important"),
-						caution: (x, y) => AdmonitionComponent(x, y, "caution"),
-						warning: (x, y) => AdmonitionComponent(x, y, "warning"),
+							caution: (x, y) => AdmonitionComponent(x, y, "caution"),
+							warning: (x, y) => AdmonitionComponent(x, y, "warning"),
 					},
 				},
 			],
@@ -209,25 +191,23 @@ export default defineConfig({
 	},
 	vite: {
 		plugins: [tailwindcss()],
-		build: {
-			// 静态资源处理优化，防止小图片转 base64 导致 HTML 体积过大（可选，根据需要调整）
-			assetsInlineLimit: 4096,
-
-			rollupOptions: {
-				onwarn(warning, warn) {
-					if (
-						warning.message.includes(
-							"is dynamically imported by",
-						) &&
-						warning.message.includes(
-							"but also statically imported by",
-						)
-					) {
-						return;
-					}
-					warn(warning);
-				},
-			},
-		},
+							build: {
+								assetsInlineLimit: 4096,
+							rollupOptions: {
+								onwarn(warning, warn) {
+									if (
+										warning.message.includes(
+											"is dynamically imported by",
+										) &&
+										warning.message.includes(
+											"but also statically imported by",
+										)
+									) {
+										return;
+									}
+									warn(warning);
+								},
+							},
+							},
 	},
 });
