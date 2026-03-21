@@ -9,7 +9,7 @@ tags:
   - android
   - AOSP
   - 教程
-image: 'heroImage: "https://box.pgntgz.top/远端测试.jpg"'
+image: '"https://box.pgntgz.top/远端测试.jpg"'
 ---
 ⚠️编辑完成，但还没上图片
 
@@ -20,7 +20,7 @@ image: 'heroImage: "https://box.pgntgz.top/远端测试.jpg"'
 
 从开[上期](https://pgntgz.top/posts/nothing/)结束始吧，建议也看看喵
 
-![测试](https://box.pgntgz.top/远端测试.jpg)
+
 
 
 ## 爽了再说（先推荐点东西再bb）
