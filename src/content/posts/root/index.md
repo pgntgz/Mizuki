@@ -9,7 +9,7 @@ tags:
   - android
   - AOSP
   - 教程
-image: ./images.png
+image: ./https://box.pgntgz.top/远端测试.jpg
 ---
 ⚠️编辑完成，但还没上图片
 
