@@ -26,7 +26,8 @@ image: ./lsp.jpg
 
 
 ## 爽了再说（先推荐点东西再bb）
-首先最好刷个lsp建议这个版本的[构建版](https://github.com/JingMatrix/LSPosed/actions) 当然记得打Zygisk 可以参考上期
+首先最好刷个lsp，我推荐建议这个版本的，我选择的是 [构建版](https://github.com/JingMatrix/LSPosed/actions) 当然记得打Zygisk 可以参考上期
+*3.29修：这个项目现在改名为了Vector，连接依然可用*
 ### Iconify
 GPL-3.0开源[github](https://github.com/Mahmud0808/Iconify?tab=readme-ov-file)
 ⚠️*部分功能尚未适配android16系统*
