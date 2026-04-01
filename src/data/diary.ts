@@ -16,9 +16,9 @@ const diaryData: DiaryItem[] = [
 	{
 		id: 1,
 		content:
-			"The falling speed of cherry blossoms is five centimeters per second!",
-		date: "2025-01-15T10:30:00Z",
-		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
+			"为了酒馆买的5刀grok,结果发现grok除了输出色，在galqq聊人表现特别的棒，我真他妈怀疑老马偷推特的文爱记录练ai了。grok个人感觉逻辑能力是真的差，不过可能因为nsfw训练资料吧，情商表现巨好。希望开放nsfw的厂商越来越多",
+		date: "2026-04-1T20:51:00Z",
+		images: [],
 	},
 ];
 
