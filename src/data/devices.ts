@@ -20,10 +20,10 @@ export const devicesData: DeviceCategory = {
 		{
 			name: "nothing phone 3a",
 			image: "/images/device/nothing.jpg",
-			specs: "Gray / 12G + 256G",
+			specs: "白色 / 12G + 256G",
 			description:
 				"open phone,中端甜品玩具.",
 			link: "https://us.nothing.tech/products/phone-3a?Colour=White&Capacity=12%2B256GB",
 		},
 	],
-
+};
