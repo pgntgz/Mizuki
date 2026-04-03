@@ -1,6 +1,6 @@
 ---
 title: 解决osu！在linux下的vulkan渲染bug
-published: 2026-03-11
+published: 2026-04-03
 description: vulkan在我的linux上出现了图像撕裂bug,我解决了它
 category: 问题
 tags:
@@ -42,4 +42,4 @@ image: ./osu.png
 
 
 
-2026/03/04当场水完
+2026/04/03当场水完
