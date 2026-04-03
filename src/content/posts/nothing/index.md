@@ -2,7 +2,7 @@
 title: nothing ROOT教程and ROOT使用者的软件谈
 published: 2026-03-11
 description: 做为nothing使用者对我的设备的想法和noithin root 教程
-category: 工具
+category: 技术
 tags:
   - root
   - nothing

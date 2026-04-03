@@ -2,7 +2,7 @@
 title: nothing ROOT 后编—软件推荐&简单隐藏
 published: 2026-03-19
 description: 属于nothing的ROOT后的软件和玩法推荐&基础root隐藏
-category: 工具
+category: 技术
 tags:
   - root
   - nothing
