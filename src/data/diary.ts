@@ -21,8 +21,6 @@ const diaryData: DiaryItem[] = [
 		images: [],
 	},
 ];
-
-const diaryData: DiaryItem[] = [
 	{
 		id: 2,
 		content:
@@ -31,8 +29,6 @@ const diaryData: DiaryItem[] = [
 		images: [],
 	},
 ];
-
-const diaryData: DiaryItem[] = [
 	{
 		id: 3,
 		content:
