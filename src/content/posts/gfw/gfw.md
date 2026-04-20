@@ -110,6 +110,10 @@ GFW思路转向网络封锁。
 到了10年这个时间点google.cn已经死翘翘了，不过意外的是Google留下的尸体间接开启了下一个时代——GAE和GoAgent
 
 ## 跨过去！
+
+> 変（か）わらなきゃ　壁（かべ）壊（こわ）さなきゃ
+> 必须要改变　必须破坏这高墙
+
 ### 寄生？钻开？
 在SS之前的主流模式分别是依赖GAE的GoAgent和直接和GFW打擂台的西厢计划
 
@@ -125,10 +129,10 @@ GFW思路转向网络封锁。
 > - TCP连接混淆：在每次连接中，通过对GFW的入侵检测系统进行注入，混淆连接，使得GFW无法正确解析连接和检测关键词，从而在有关键词的情况下也避免连接重置。(更新，2011年7月测试，客户端的TCP连接混淆已经不可用)
 > - 反DNS劫持：通过匹配GFW伪包的指纹并将其过滤，让用户以普通的客户端也能获得正确的解析结果。（用户需要设置DNS为没有被污染的DNS，例如178.79.131.110 等）
 
-西厢计划有很多问题，比如高度依赖ROOT权限，需要运行在Linux内核中，所以在GNU/Linux&BSD这类开源系统外可用性很低，到后期才兼容Win，使用它类似在Root的手机上刷入模块，在[这篇文章](https://groups.google.com/g/fzlug/c/9C-1fvi1aeg/m/iXUi33drzq4J)就可以看到他的安装流程
+西厢计划有很多问题，比如高度依赖ROOT权限，需要运行在Linux内核中，所以在GNU/Linux&BSD这类开源系统外可用性很低，到后期才兼容Win，使用它类似在Root的手机上刷入模块，在[这篇文章](https://groups.google.com/g/fzlug/c/9C-1fvi1aeg/m/iXUi33drzq4J)就可以看到他的安装流程。西厢计划的代码托管在Google code。这个平台已经被Google抛弃不过依然可以一窥。
 
 #### GoAgent—寄生
-Google作为互联网巨头，GFW当然不可能把Google的IP全部封杀，否则中文互联网多半要崩溃。事实上到今天GCP的VPS IP大多也没有被墙，在当时GAE也就是PaaS服务就没有受到影响。并且提供1人10appid 1appid 1day/1G的慷慨额度
+Google作为互联网巨头，Google的搜索引擎和youtube这类服务自然死透了。不过GFW当然不可能把Google的IP全部封杀，否则中文互联网多半要崩溃。事实上到今天GCP的VPS IP绝大多数也没有被墙，在当时GAE也就是Google提供的PaaS服务就没有受到影响。并且提供1人10个appID每个appID每天1G的慷慨免费额度
 
 
 
