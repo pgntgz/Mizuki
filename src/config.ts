@@ -112,7 +112,7 @@ export const siteConfig: SiteConfig = {
     // "mobile" = 仅在移动端显示
     // "desktop" = 仅在桌面端显示
     // "both" = 在所有设备上显示
-    showModeSwitchOnMobile: "both",
+    showModeSwitchOnMobile: "desktop",
   },
 
   banner: {
@@ -146,7 +146,7 @@ export const siteConfig: SiteConfig = {
     waves: {
       enable: true, // 是否启用水波纹效果（注意：此功能性能开销较大）
       performanceMode: false, // 性能模式：减少动画复杂度(性能提升40%)
-      mobileDisable: false, // 移动端禁用
+      mobileDisable: true, // 移动端禁用
     },
 
     // PicFlow API支持(智能图片API)
