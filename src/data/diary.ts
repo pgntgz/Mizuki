@@ -54,7 +54,14 @@ const diaryData: DiaryItem[] = [
       "希望gurubot/self-after-dark这种专注单一领域非微调而是直接面对NSFW需求的的LLM模型多一点，这个8b的参数模型真的惊艳到我，可惜我英文烂。",
     date: "2026-05-11T18:46",
     images: [],
-  }
+  },
+  {
+    id: 7,
+    content:
+      "熬夜看了Android Show 2026....液态玻璃loga吓人一跳，不过Google看了没有去全盘果化，MD3还是主要，只是Gemini intelligence加了，有点看不下去了，还有emoji新版本真的丑，不过自订微件看起来不错？",
+    date: "2026-05-13T01:31",
+    images: [],
+  },
 ];
 
 // 获取日记统计数据
