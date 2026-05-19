@@ -8,7 +8,7 @@ tags:
   - nothing
   - android
   - AOSP
-  - 教程
+  - 教程向
   - 长篇
 image: ./py.jpg
 ---
