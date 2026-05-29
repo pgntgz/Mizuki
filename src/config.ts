@@ -112,7 +112,7 @@ export const siteConfig: SiteConfig = {
     // "mobile" = 仅在移动端显示
     // "desktop" = 仅在桌面端显示
     // "both" = 在所有设备上显示
-    showModeSwitchOnMobile: "desktop",
+    showModeSwitchOnMobile: "off",
   },
 
   banner: {
@@ -140,7 +140,7 @@ export const siteConfig: SiteConfig = {
 
     carousel: {
       enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
-      interval: 3.5, // 轮播间隔时间（秒）
+      interval: 5, // 轮播间隔时间（秒）
     },
 
     waves: {
@@ -192,7 +192,7 @@ export const siteConfig: SiteConfig = {
   toc: {
     enable: true, // 启用目录功能
     mode: "sidebar", // 目录显示模式："float" 悬浮按钮模式，"sidebar" 侧边栏模式
-    depth: 2, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
+    depth: 3, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
     useJapaneseBadge: true, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
   },
   showCoverInContent: true, // 在文章内容页显示文章封面
@@ -240,17 +240,12 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
     ], // 桌面横幅图片
     mobile: [
       "/assets/desktop-banner/osu1.webp",
-      "/assets/desktop-banner/Kleinne Lui.webp",
-      "/assets/desktop-banner/pj1.webp",
-      "/assets/desktop-banner/pj2.webp",
-      "/assets/desktop-banner/osu3.webp",
-      "/assets/desktop-banner/osu4.webp",
     ], // 移动横幅图片
   }, // 使用本地横幅图片
   position: "center", // 壁纸位置，等同于 object-position
   carousel: {
     enable: true, // 启用轮播
-    interval: 5, // 轮播间隔时间（秒）
+    interval: 8, // 轮播间隔时间（秒）
   },
   zIndex: -1, // 层级，确保壁纸在背景层
   opacity: 0.8, // 壁纸透明度
@@ -605,7 +600,7 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-  enable: true, // 启用看板娘
+  enable: false, // 启用看板娘
   models: ["/pio/models/pio/model.json"], // 默认模型路径
   position: "left", // 模型位置
   width: 280, // 默认宽度
