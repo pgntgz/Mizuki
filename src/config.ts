@@ -268,12 +268,6 @@ export const navBarConfig: NavBarConfig = {
           external: true,
           icon: "fa7-brands:github",
         },
-        {
-          name: "Bilibili",
-          url: "https://space.bilibili.com",
-          external: true,
-          icon: "fa7-brands:bilibili",
-        },
       ],
     },
     {
@@ -318,28 +312,6 @@ export const navBarConfig: NavBarConfig = {
           name: "Friends",
           url: "/friends/",
           icon: "material-symbols:group",
-        },
-      ],
-    },
-    {
-      name: "Others",
-      url: "#",
-      icon: "material-symbols:more-horiz",
-      children: [
-        {
-          name: "Projects",
-          url: "/projects/",
-          icon: "material-symbols:work",
-        },
-        {
-          name: "Skills",
-          url: "/skills/",
-          icon: "material-symbols:psychology",
-        },
-        {
-          name: "Timeline",
-          url: "/timeline/",
-          icon: "material-symbols:timeline",
         },
       ],
     },
@@ -443,7 +415,7 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-  enable: true, // 启用音乐播放器功能
+  enable: false, // 启用音乐播放器功能
   mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
   meting_api:
     "https://meting.mysqil.com/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
@@ -454,7 +426,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 
 export const footerConfig: FooterConfig = {
   enable: false, // 是否启用Footer HTML注入功能
-  customHtml: "<h1>版权所有：pgntgz 无特殊声明本人在此站发布的原创内容均使用CC BY-NC-SA 4.0（知识共享 署名 非商业 相同方式共享 4.0）发布</h1>", // HTML格式的自定义页脚信息，例如备案号等，默认留空
+  customHtml: "版权所有：pgntgz.无特殊声明本人在此站发布的原创内容均使用CC BY-NC-SA 4.0（知识共享 署名 非商业 相同方式共享 4.0）发布", // HTML格式的自定义页脚信息，例如备案号等，默认留空
   // 也可以直接编辑 FooterConfig.html 文件来添加备案号等自定义内容
   // 注意：若 customHtml 不为空，则使用 customHtml 中的内容；若 customHtml 留空，则使用 FooterConfig.html 文件中的内容
   // FooterConfig.html 可能会在未来的某个版本弃用
