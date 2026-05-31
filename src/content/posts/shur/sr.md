@@ -8,7 +8,7 @@ tags:
   - 教程向
   - 长篇
   - 开源替代
-image:
+image: ./icon_oJHkpx5GsjyrG5_nxTfEs2FmP6g7_hmnbE6rKQjLRoI=.png
 ---
 ### 老问题
 首先当然就是老问题——为啥要换？
