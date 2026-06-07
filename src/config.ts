@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
   lang: SITE_LANG,
 
   themeColor: {
-    hue: 60, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+    hue: 250, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
     fixed: false, // 对访问者隐藏主题色选择器
   },
 
@@ -136,7 +136,7 @@ export const siteConfig: SiteConfig = {
       ], // 移动横幅图片
     }, // 使用本地横幅图片
 
-    position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
+    position: "top", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
 
     carousel: {
       enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
