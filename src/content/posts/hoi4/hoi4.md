@@ -6,9 +6,10 @@ category: 技术
 tags:
   - 长篇
   - 水
-image: /.screenshot-2026-06-20_17.18.01.png
+image: /.screenshot-2026-06-20_17.49.10.png
 ---
 [pjsk 世界计划 综合扩展（将领 政治顾问 军工机构）](https://steamcommunity.com/sharedfiles/filedetails/?id=3747850080)
+
 [pjsk 世界计划 25时 将领包](https://steamcommunity.com/sharedfiles/filedetails/?id=3743757415)
 #### 起因和将领包的创作
 说为啥做这玩意，起因挺简单的，HOI4的各种啥卵子二次元mod中，其实没啥咱pjsk的事。所有duck就和我说：我们来炒作吧。我想了一下，我的确想玩pjsk的相关内容在HOI4里，所有我就答应了这个请求。
