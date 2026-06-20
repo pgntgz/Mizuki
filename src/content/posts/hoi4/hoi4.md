@@ -1,6 +1,6 @@
 ---
 title: 开发笔记
-published: 2026-04-16
+published: 2026-06-20
 description: 在2026年和一个蠢B合作并让Ai完全编写一个mod是什么体验
 category: 技术
 tags:
