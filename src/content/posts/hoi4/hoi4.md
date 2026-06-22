@@ -6,7 +6,7 @@ category: 技术
 tags:
   - 长篇
   - 水
-image: /.screenshot-2026-06-20_17.49.10.png
+image: /.screenshot-2026-06-20_17.49.10
 ---
 [pjsk 世界计划 综合扩展（将领 政治顾问 军工机构）](https://steamcommunity.com/sharedfiles/filedetails/?id=3747850080)
 
@@ -41,7 +41,7 @@ image: /.screenshot-2026-06-20_17.49.10.png
 
 修好了路径问题接下来是图片无裁剪乱飞比如
 ![渲染问题 w-30%](https://box.pgntgz.top/BB54227C04DE88A3B4D42BDDA790839E.png)
-![奏大头](https://box.pgntgz.top/694A6E4D40215F65334A6131321CAE34.png)
+![奏大头 w-100%](https://box.pgntgz.top/694A6E4D40215F65334A6131321CAE34.png)
 
 
 后面干脆放弃了这个版本。
