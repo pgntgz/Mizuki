@@ -64,9 +64,12 @@
 
 tg和墙内账号不公开
 
-游戏的话
+找我玩游戏的话
+
 ProjectSekai（jp）ID：599089109441765382
+
 osu！ID ：pgntgz
+
 steam：pgntgz (好友代码:1762337426)
 
 邮箱地址 2f4fsi1g6@mozmail.com
