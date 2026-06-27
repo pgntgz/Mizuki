@@ -1,5 +1,5 @@
 ---
-title: 开发笔记
+title: HOI4mod开发者笔记
 published: 2026-06-20
 description: 在2026年和一个蠢B合作并让Ai完全编写一个mod是什么体验
 category: 技术
@@ -41,7 +41,7 @@ A：彩蛋是一作的，**喜欢就操她去**
 说为啥做这玩意，起因挺简单的，HOI4的各种啥卵子二次元mod中，其实没啥咱pjsk的事。所有duck就和我说：我们来炒作吧。我想了一下，我的确想玩pjsk的相关内容在HOI4里，所有我就答应了这个请求。
 
 但是我其实根本没有接触过HOI4的mod开发工作,所以我其实没有给他提供什么帮助。
-25-ji的将领包全是这个家伙硬做的，她甚至不知道看一下HOI4的mod开发指南，就直接在web端狠狠拷打claude。最后是极其混乱的目录管理，我就问她：“都用ai了，你不会叫AI帮你整理一下吗”然后我就介绍了google antigravity（在[隐私卡](https://yinsi.pgntgz.top/)项目因为一个个改太麻烦我用了agent），结果用了agent后当天晚上这货就把将领包mod硬做出来了。
+25-ji的将领包全是这个家伙硬做的，她甚至不知道看一下HOI4的mod开发指南，就直接在web端狠狠拷打claude。最后是极其混乱的目录管理，我就问她：“都用ai了，你不会叫AI帮你整理一下吗”然后我就介绍了google antigravity（在[隐私卡](https://yinsi.pgntgz.top/)项目因为一个个改太麻烦我用了agent），结果用了agent后当天晚上这货亩产万斤就把将领包mod硬做出来了。
 
 ### 综合扩展项目
 这个就好玩了，事实上这个mod受到了[轻音少女人物扩展包](https://steamcommunity.com/sharedfiles/filedetails/?id=3382514345) 的启发，所有这次我们的打算其实就是做一个pjsk版本的mini这玩意。这个项目算是将领包有100个订阅就启动，结果是这坨大便仅仅4天就100订阅了，于是这个项目就开始了。
