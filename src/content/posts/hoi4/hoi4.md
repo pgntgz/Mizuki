@@ -8,7 +8,6 @@ tags:
   - 水
 image: ./screenshot-2026-06-20_17.49.10.png
 ---
-[beta代码包](https://box.pgntgz.top/neo4.0.tar.gz)
 
 [pjsk 世界计划 综合扩展（将领 政治顾问 军工机构）](https://steamcommunity.com/sharedfiles/filedetails/?id=3747850080)
 
