@@ -50,3 +50,6 @@ src/data/bilibili-data.json
 .obsidian/
 .directory
 mzk2.txt
+
+# agents behavioral rules
+.agents/
