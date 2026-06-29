@@ -12,6 +12,7 @@ import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { getSortedPosts } from "@utils/content-utils";
 import {
 	getFileDirFromPath,
+	getPostUrl,
 	getPostUrlBySlug,
 	removeFileExtension,
 } from "@utils/url-utils";
@@ -178,6 +179,10 @@ const jsonLd = {
 		: siteConfig.lang.replace("_", "-"),
 	// TODO include cover image here
 };
+
+// 计算该文章的规范 URL（用于 canonical 标签）
+// 确保即使通过 /posts/ 旧路径访问，canonical 也指向真正的规范地址
+const canonicalUrl = new URL(getPostUrl(entry), Astro.site).toString();
 ---
 
 <MainGridLayout
@@ -188,6 +193,7 @@ const jsonLd = {
 	setOGTypeArticle={true}
 	postSlug={entry.id}
 	headings={headings}
+	canonicalUrl={canonicalUrl}
 >
 	<script
 		is:inline

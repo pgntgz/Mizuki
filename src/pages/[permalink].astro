@@ -16,7 +16,7 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { getSortedPosts } from "@utils/content-utils";
-import { getFileDirFromPath, getPostUrlBySlug } from "@utils/url-utils";
+import { getFileDirFromPath, getPostUrl, getPostUrlBySlug } from "@utils/url-utils";
 import {
 	initPostIdMap,
 	hasCustomPermalink,
@@ -108,6 +108,9 @@ const jsonLd = {
 		? entry.data.lang.replace("_", "-")
 		: siteConfig.lang.replace("_", "-"),
 };
+
+// 计算该文章的规范 URL（permalink 页面本身就是规范路径）
+const canonicalUrl = new URL(getPostUrl(entry), Astro.site).toString();
 ---
 
 <MainGridLayout
@@ -118,6 +121,7 @@ const jsonLd = {
 	setOGTypeArticle={true}
 	postSlug={entry.id}
 	headings={headings}
+	canonicalUrl={canonicalUrl}
 >
 	<script
 		is:inline

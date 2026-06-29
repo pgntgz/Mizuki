@@ -114,23 +114,20 @@ export default defineConfig({
 								preprocess: vitePreprocess(),
 							}),
 							sitemap({
-								i18n: {
-									defaultLocale: 'zh-cn',
-										locales: { 'zh-cn': 'zh-cn' },
+							filter: (page) => !page.includes('/404') && !page.includes('/rss'),
+								serialize(item) {
+									if (/posts\//.test(item.url)) {
+										item.changefreq = 'weekly';
+										item.priority = 0.9;
+										// 不再使用 new Date()，避免每次构建都刷新所有文章的 lastmod
+										// Astro sitemap 插件会自动省略 lastmod 字段
+									} else {
+										item.changefreq = 'monthly';
+										item.priority = 0.5;
+									}
+									return item;
 								},
-								filter: (page) => !page.includes('/404') && !page.includes('/rss'),
-									serialize(item) {
-										if (/posts\//.test(item.url)) {
-											item.changefreq = 'weekly';
-											item.priority = 0.9;
-											item.lastmod = new Date();
-										} else {
-											item.changefreq = 'monthly';
-											item.priority = 0.5;
-										}
-										return item;
-									},
-							}),
+						}),
 	],
 	markdown: {
 		remarkPlugins: [
