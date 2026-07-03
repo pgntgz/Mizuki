@@ -10,7 +10,7 @@ tags:
   - AOSP
   - 教程向
   - 长篇
-image: ./py.jpg
+image: https://box.pgntgz.top/posts/nothing/py.avif
 ---
 
 
@@ -109,13 +109,13 @@ users.users.<你的用户名>.extraGroups = [ "adbusers" ];
 
 首先检查连接并确保[[#手机端准备]]已经完成
 连接PC一般会出现一个ADB授权弹窗，允许你的设备调试
-![ADB授权弹窗](./ADB1.jpg)
+![ADB授权弹窗](https://box.pgntgz.top/posts/nothing/ADB1.avif)
 然后测试连接`adb devices`
 返回设备信息就可以下一步重启`adb reboot bootloader 
 正常就会进fastboot
 运行解锁命令`fastboot flashing unlock
 这时候会出现下面的画面
-![BL](./bl.jpg)
+![BL](https://box.pgntgz.top/posts/nothing/bl.avif)
 ⚠️解锁会清除数据，请确定重要内容的备份
 接下来
 - 使用 **音量键** 切换选项。
@@ -135,11 +135,11 @@ users.users.<你的用户名>.extraGroups = [ "adbusers" ];
 
 简单来说root管理器会让你把调教过的组件刷入内核获取root权限，在nothing刷入的都是init_boot.img，获取方式最简单的就是[nothing档案馆](https://github.com/spike0en/nothing_archive) 这里收录了几乎所有nothing机器root需要的资源，以我的3A为例，在设置>关于本机>nothing os>找到你的小版本号
 
-![小版本号](./bbh.png)
+![小版本号](https://box.pgntgz.top/posts/nothing/bbh.webp)
 ### 获取boot文件
-接下来在[nothing档案馆](https://github.com/spike0en/nothing_archive) 下拉到下载区找到对应版本的**OTA Images**![下载](./xz.png)
+接下来在[nothing档案馆](https://github.com/spike0en/nothing_archive) 下拉到下载区找到对应版本的**OTA Images**![下载](https://box.pgntgz.top/posts/nothing/xz.webp)
 下载大概30m的boot就可以了，比如我的[Asteroids_B4.0-260225-1824-image-boot.7z](https://github.com/spike0en/nothing_archive/releases/download/Asteroids_B4.0-260225-1824/Asteroids_B4.0-260225-1824-image-boot.7z)解压缩会得到
-![文件](./bo.png)
+![文件](https://box.pgntgz.top/posts/nothing/bo.webp)
 我们要的就是init_boot.img,貌似不少较老的设备都是boot.img,市面上的教程大多都是boot.img区别就是`init_boot`：存放的是 Generic Kernel Image (GKI) 的 **ramdisk**（KernelSU 通常修补这里）。**`boot`**：存放的是 **内核镜像 (kernel)** 本身。
 
 我第一次也是看教程刷入boot.img结果就是没有用，这算是一个小坑。

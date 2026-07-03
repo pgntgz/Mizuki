@@ -9,7 +9,7 @@ tags:
   - vulkan
   - 短篇
   - 水
-image: ./osu.png
+image: https://box.pgntgz.top/posts/osu!/osu.webp
 ---
 ## 问题
 最近在Linux最棒的开源音乐播放器osu！打铺总感觉不顺，人嘛，失误了，第一想法肯定是找设备问题。然后我发现我用的竟然是比我大的openGL！于是火速换了vulkan，结果就是画面撕裂了，移动鼠标部分画面就闪烁+撕裂。没截屏，借用一下别人的吧

@@ -7,7 +7,7 @@ tags:
   - 长篇
   - 代理协议
   - 开源替代
-image: ./gfw.png
+image: https://box.pgntgz.top/posts/gfw/gfw.webp
 ---
 ### 开头
 

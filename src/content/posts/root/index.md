@@ -10,7 +10,7 @@ tags:
   - AOSP
   - 教程向
   - 长篇
-image: ./lsp.jpg
+image: https://box.pgntgz.top/posts/root/lsp.avif
 ---
 
 [google希望让android变成封闭系统！了解他并做些什么](https://keepandroidopen.org/zh-CN/)
