@@ -162,11 +162,17 @@ const lastModified = dayjs(entry.data.updated || entry.data.published)
 	.utc()
 	.format("YYYY-MM-DDTHH:mm:ss");
 
+// SEO 方案 A：博文页面 Meta Description 自动摘要兜底
+// 当 description 缺失、与标题一致、或少于 30 字时，自动使用 remark 提取的正文首段摘要
+const postDescription = (entry.data.description && entry.data.description.trim().length >= 30 && entry.data.description.trim() !== entry.data.title.trim())
+	? entry.data.description
+	: (remarkPluginFrontmatter.excerpt || entry.data.description || entry.data.title);
+
 const jsonLd = {
 	"@context": "https://schema.org",
 	"@type": "BlogPosting",
 	headline: entry.data.title,
-	description: entry.data.description || entry.data.title,
+	description: postDescription,
 	keywords: entry.data.tags,
 	author: {
 		"@type": "Person",
@@ -188,7 +194,7 @@ const canonicalUrl = new URL(getPostUrl(entry), Astro.site).toString();
 <MainGridLayout
 	banner={entry.data.image}
 	title={entry.data.title}
-	description={entry.data.description}
+	description={postDescription}
 	lang={entry.data.lang}
 	setOGTypeArticle={true}
 	postSlug={entry.id}

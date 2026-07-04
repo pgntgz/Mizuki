@@ -164,6 +164,26 @@ if (siteConfig.font) {
 	// 组合成完整的 font-family 字符串
 	bodyFontFamily = fonts.join(", ");
 }
+
+// SEO 方案 B：全局 Meta Description 兜底逻辑
+// 对于非文章的独立页面，当 description 缺失或过短时，自动拼接站点描述
+const defaultSiteDescription = "一个中转空间私货艺术的大杂烩个人向blog，或许你能学到点什么呢?";
+
+let finalDescription = description || "";
+
+if (!setOGTypeArticle && !postSlug) {
+	// 方案 B：适用于非文章页面（主页、关于、友链、日记、归档等）
+	if (!finalDescription || finalDescription.trim().length < 20) {
+		finalDescription = title
+			? `${title} | ${defaultSiteDescription}`
+			: defaultSiteDescription;
+	}
+} else {
+	// 文章页面的最后一道防线（正常情况下方案 A 已在上游处理好）
+	if (!finalDescription || finalDescription.trim().length === 0) {
+		finalDescription = pageTitle;
+	}
+}
 ---
 
 <!doctype html>
@@ -219,7 +239,7 @@ if (siteConfig.font) {
 		<link rel="canonical" href={finalCanonical} />
 		<title>{pageTitle}</title>
 		<meta charset="UTF-8" />
-		<meta name="description" content={description || pageTitle} />
+		<meta name="description" content={finalDescription} />
 		{
 			siteConfig.keywords && siteConfig.keywords.length > 0 && (
 				<meta
@@ -232,7 +252,7 @@ if (siteConfig.font) {
 		<meta property="og:site_name" content={siteConfig.title} />
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:title" content={pageTitle} />
-		<meta property="og:description" content={description || pageTitle} />
+		<meta property="og:description" content={finalDescription} />
 		{ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
 		{
 			setOGTypeArticle ? (
@@ -244,7 +264,7 @@ if (siteConfig.font) {
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content={Astro.url} />
 		<meta name="twitter:title" content={pageTitle} />
-		<meta name="twitter:description" content={description || pageTitle} />
+		<meta name="twitter:description" content={finalDescription} />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		{
