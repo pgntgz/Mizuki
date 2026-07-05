@@ -111,6 +111,13 @@ const diaryData: DiaryItem[] = [
     date: "2026-06-29T21:03",
     images: [],
   },
+  {
+    id: 14,
+    content:
+      "Wallpaper Engine死了？我只能说好死，这玩意本质就是窃取steam的全球CDN当免费云存储用，无版权就算了，还是NSFW，NSFW就算了，还有伪装壁纸的其他文件，一群搬运无版权作品滥用steamCDN分发网络挨铁拳还撒泼打滚上了。白嫖人家steamCDN不让用了还正义上了。",
+    date: "2026-07-05T15:16",
+    images: [],
+  },
 ];
 
 // 获取日记统计数据
