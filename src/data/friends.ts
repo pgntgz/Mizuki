@@ -28,6 +28,22 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://docs.mizuki.mysqil.com",
 		tags: ["Docs"],
 	},
+	{
+		id: 3,
+		title: "pjsk贴纸生成器",
+		imgurl: "https://sticker.pgntgz.top/favicon.ico",
+		desc: "Project Sekai 表情贴纸在线生成工具",
+		siteurl: "https://sticker.pgntgz.top/",
+		tags: ["工具", "自建"],
+	},
+	{
+		id: 4,
+		title: "中国版隐私卡",
+		imgurl: "https://yinsi.pgntgz.top/favicon.ico",
+		desc: "适用于中国网络环境的隐私保护信息卡",
+		siteurl: "https://yinsi.pgntgz.top/",
+		tags: ["工具", "自建"],
+	},
 ]; // <--- 就是这里！刚才你漏了结尾的方括号和分号喵！
 
 // 获取所有友情链接数据
