@@ -31,9 +31,9 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 3,
 		title: "pjsk贴纸生成器",
-		imgurl: "https://sticker.pgntgz.top/favicon.ico",
+		imgurl: "https://pjsk.pgntgz.top/pjsk/favicon.ico",
 		desc: "Project Sekai 表情贴纸在线生成工具",
-		siteurl: "https://sticker.pgntgz.top/",
+		siteurl: "https://pjsk.pgntgz.top/pjsk/",
 		tags: ["工具", "自建"],
 	},
 	{

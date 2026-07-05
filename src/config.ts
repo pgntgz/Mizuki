@@ -257,7 +257,7 @@ export const navBarConfig: NavBarConfig = {
 		// 支持自定义导航栏链接，支持多级菜单
 		{
 			name: "项目地址",
-			url: "https://sticker.pgntgz.top/pjsk/",
+			url: "https://pjsk.pgntgz.top/pjsk/",
 			icon: "material-symbols:link",
 			children: [
 				{
