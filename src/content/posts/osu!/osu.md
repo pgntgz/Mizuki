@@ -1,7 +1,7 @@
 ---
 title: 解决osu！在linux下的vulkan渲染bug
 published: 2026-04-03
-description: vulkan在我的linux上出现了图像撕裂bug,我解决了它
+description: vulkan在我的linux上出现了图像撕裂bug,我解决了它。解决方式比我想的简单，正好水一期
 category: 问题
 tags:
   - GNU/Linux
@@ -23,7 +23,7 @@ image: https://box.pgntgz.top/posts/osu!/osu.webp
 得嘞，自己查吧。osu！仓库果然有相同情况的[议题](https://github.com/ppy/osu/discussions/35961) 
 
 看了下解答
-![github的解决方法](https://box.pgntgz.top/解决.png)
+![github的解决方法](https://box.pgntgz.top/posts/osu!/解决.webp)
 果然`vk_wsi_disable_unordered_submits=true` 有用，看来是高负载场景下vulkan乱序提交的锅。照理说到这里就没事了，没必要水一篇。
 
 可是我编辑了`~/.drirc` 和`/etc/drirc` 都没用，貌似是vulkan驱动踢开drirc闹革命导致的，vulkan优先读取系统变量，留下drirc不管了

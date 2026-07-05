@@ -23,7 +23,7 @@ image: https://box.pgntgz.top/posts/shur/icon_oJHkpx5GsjyrG5_nxTfEs2FmP6g7_hmnbE
 搜狗、讯飞、百度、微信 4家占据了84.4%的市场份额。
 
 然后还有另一篇通报——早在[^2]2021年工信部发布的《# 关于输入法等33款App违法违规收集使用个人信息情况的通报》：
-![gxb w-40%](https://box.pgntgz.top/1621370239178608-1621370251815832.png)
+![gxb w-40%](https://box.pgntgz.top/posts/shur/1621370239178608-1621370251815832.webp)
 属实是卷卷有爷名了。唯一没有上榜的微信输入法是因为他2022年12月才公测。
 
 当然或许Gboard不错——Goolge在隐私权选项中可以选择关闭分享数据（虽然是默认开启的）。不过抛开Google也不是啥好东西不说，这又涉及到了又一个问题——使用体验。
@@ -33,7 +33,7 @@ image: https://box.pgntgz.top/posts/shur/icon_oJHkpx5GsjyrG5_nxTfEs2FmP6g7_hmnbE
 ### 计划
 简单理清一下思路：
 
-![思路w-50%](https://box.pgntgz.top/screenshot-2026-05-31_17.51.33.png)
+![思路w-50%](https://box.pgntgz.top/posts/shur/screenshot-2026-05-31_17.51.33.webp)
 
 首先开源的本地化的开源输入法框架，其次是更好的词库和其依赖，然后是运行在本地的ASR模型并且联动到前端方便调用。
 
@@ -60,9 +60,9 @@ Google play的pro是非开源的版本
 云服务我就不做推荐，不过提醒一下，不同于美国的宪法第四修正案或者欧盟丧心病狂的GDPR，中国政府可以随便调阅所有大陆所有云厂商的日志。还有就是Google ais的免费层级是要被拿去训练的，要隐私就老老实实花钱买不要贪便宜。
 
 挑选完适合自己的ASR模型后，就是联动Ficitx5了，在说点啥的主页点击输入设置>音频与联动>允许外部输入法联动（aidl）开启就可以了
-![效果](https://box.pgntgz.top/photo_2026-05-31_21-48-07.jpg)
+![效果](https://box.pgntgz.top/posts/shur/photo_2026-05-31_21-48-07.avif)
 Ficitx5就不用我介绍了，然后安装[Ficitx5改版](https://github.com/BryceWG/fcitx5-android-bibi-keyboard/releases) 点击虚拟键盘选项，下拉找到空格键长按行为，选择语音输入就可以了。 
-![效果](https://box.pgntgz.top/photo_2026-05-31_21-48-08.jpg)
+![效果](https://box.pgntgz.top/posts/shur/photo_2026-05-31_21-48-08.avif)
 #### 雾凇拼音
 首先雾凇拼音依赖中州韵输入引擎的支持。为了在Ficitx5使用，我们需要安装[中州韵插件](https://f-droid.org/zh_Hans/packages/org.fcitx.fcitx5.android.plugin.rime/) 
 
@@ -73,16 +73,16 @@ Ficitx5就不用我介绍了，然后安装[Ficitx5改版](https://github.com/Br
 然后删掉！一定要删掉原来的所有数据！不然会报错！
 
 然后把雾凇拼音的包解压到此地，效果这样就好了
-![效果](https://box.pgntgz.top/screenshot-2026-05-31_21.53.27.png)
+![效果](https://box.pgntgz.top/posts/shur/screenshot-2026-05-31_21.53.27.webp)
 接着在小企鹅输入法的输入法选项中添加中州韵，随便测试一下已经可以选择雾凇拼音了（没有的话点一下重载配置）
 
 
 ### 效果
 这样全过程就好了。小企鹅支持动态色彩主题稍微配置一下，效果媲美Gboard。愿意折腾[Ficitx5支持第三方皮肤](https://github.com/tankb52/fcitx5-andoird-themes)
 
-![效果](https://box.pgntgz.top/photo_2026-05-31_21-42-08.jpg)
+![效果](https://box.pgntgz.top/posts/shur/photo_2026-05-31_21-42-08.avif)
 语言效果
-![效果](https://box.pgntgz.top/photo_2026-05-31_21-46-14.jpg)
+![效果](https://box.pgntgz.top/posts/shur/photo_2026-05-31_21-46-14.avif)
 
 在功能性是雾凇的词库吊打Gboard，Sensevoice的速度和准确度完全强于Gboard，而且不怕网络问题。隐私上杜绝任何环节的输入法泄露。
 

@@ -1,0 +1,112 @@
+[
+  {
+    "source": "/home/pgntgz/r2/gfwhr.jpg",
+    "target": "/home/pgntgz/r2/posts/gfw/gfwhr.avif",
+    "imgName": "gfwhr.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/lbh1.jpg",
+    "target": "/home/pgntgz/r2/posts/gfw/lbh1.avif",
+    "imgName": "lbh1.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/xhgoogle.jpg",
+    "target": "/home/pgntgz/r2/posts/gfw/xhgoogle.avif",
+    "imgName": "xhgoogle.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/ffxf.jpg",
+    "target": "/home/pgntgz/r2/posts/gfw/ffxf.avif",
+    "imgName": "ffxf.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/googlesl.png",
+    "target": "/home/pgntgz/r2/posts/gfw/googlesl.webp",
+    "imgName": "googlesl.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/SSJL.png",
+    "target": "/home/pgntgz/r2/posts/gfw/SSJL.webp",
+    "imgName": "SSJL.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/screenshot-2026-06-25_00.42.42.png",
+    "target": "/home/pgntgz/r2/posts/hoi4/screenshot-2026-06-25_00.42.42.webp",
+    "imgName": "screenshot-2026-06-25_00.42.42.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/screenshot-2026-06-25_00.39.57.png",
+    "target": "/home/pgntgz/r2/posts/hoi4/screenshot-2026-06-25_00.39.57.webp",
+    "imgName": "screenshot-2026-06-25_00.39.57.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/BB54227C04DE88A3B4D42BDDA790839E.png",
+    "target": "/home/pgntgz/r2/posts/hoi4/BB54227C04DE88A3B4D42BDDA790839E.webp",
+    "imgName": "BB54227C04DE88A3B4D42BDDA790839E.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/694A6E4D40215F65334A6131321CAE34.png",
+    "target": "/home/pgntgz/r2/posts/hoi4/694A6E4D40215F65334A6131321CAE34.webp",
+    "imgName": "694A6E4D40215F65334A6131321CAE34.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/解决.png",
+    "target": "/home/pgntgz/r2/posts/osu!/解决.webp",
+    "imgName": "解决.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/上期.png",
+    "target": "/home/pgntgz/r2/posts/root/上期.webp",
+    "imgName": "上期.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/qc.jpg",
+    "target": "/home/pgntgz/r2/posts/root/qc.avif",
+    "imgName": "qc.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/keybox.png",
+    "target": "/home/pgntgz/r2/posts/root/keybox.webp",
+    "imgName": "keybox.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/gx.jpg",
+    "target": "/home/pgntgz/r2/posts/root/gx.avif",
+    "imgName": "gx.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/1621370239178608-1621370251815832.png",
+    "target": "/home/pgntgz/r2/posts/shur/1621370239178608-1621370251815832.webp",
+    "imgName": "1621370239178608-1621370251815832.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/screenshot-2026-05-31_17.51.33.png",
+    "target": "/home/pgntgz/r2/posts/shur/screenshot-2026-05-31_17.51.33.webp",
+    "imgName": "screenshot-2026-05-31_17.51.33.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/photo_2026-05-31_21-48-07.jpg",
+    "target": "/home/pgntgz/r2/posts/shur/photo_2026-05-31_21-48-07.avif",
+    "imgName": "photo_2026-05-31_21-48-07.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/photo_2026-05-31_21-48-08.jpg",
+    "target": "/home/pgntgz/r2/posts/shur/photo_2026-05-31_21-48-08.avif",
+    "imgName": "photo_2026-05-31_21-48-08.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/screenshot-2026-05-31_21.53.27.png",
+    "target": "/home/pgntgz/r2/posts/shur/screenshot-2026-05-31_21.53.27.webp",
+    "imgName": "screenshot-2026-05-31_21.53.27.png"
+  },
+  {
+    "source": "/home/pgntgz/r2/photo_2026-05-31_21-42-08.jpg",
+    "target": "/home/pgntgz/r2/posts/shur/photo_2026-05-31_21-42-08.avif",
+    "imgName": "photo_2026-05-31_21-42-08.jpg"
+  },
+  {
+    "source": "/home/pgntgz/r2/photo_2026-05-31_21-46-14.jpg",
+    "target": "/home/pgntgz/r2/posts/shur/photo_2026-05-31_21-46-14.avif",
+    "imgName": "photo_2026-05-31_21-46-14.jpg"
+  }
+]

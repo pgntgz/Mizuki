@@ -40,14 +40,14 @@ Q：什么烂数值！
 
 A：  数值纯我用脚填的，我自己习惯是打多内阁mod所有没考虑原版。会改一点，比如拆机构，但说实话，咱就是整活的同人mod超模是必然的，我还是会自我中心原则设计mod
 
-Q：内阁介绍什么傻逼文案![文案 w-50%](https://box.pgntgz.top/screenshot-2026-06-25_00.42.42.png)
+Q：内阁介绍什么傻逼文案![文案 w-50%](https://box.pgntgz.top/posts/hoi4/screenshot-2026-06-25_00.42.42.webp)
 
 A：文案的幽默感和不冒犯是冲突的，**实在讨厌你可以回退到更 20 日 上午 1:07的版本**（之前的版本文案是gemini）
 
 Q：版本乱叫，为啥叫NEO3.5？
 
 A：有一大堆废案，确实是完整重写一次（nothing>neo）三次大bug（1>3）5次小修改（0>5）
-![废弃 w-50%](https://box.pgntgz.top/screenshot-2026-06-25_00.39.57.png)
+![废弃 w-50%](https://box.pgntgz.top/posts/hoi4/screenshot-2026-06-25_00.39.57.webp)
 
 
 Q：后续更新计划？
@@ -87,8 +87,8 @@ A：彩蛋是一作的，**喜欢就操她去**
 推测是claud发现环境是Arch GNU/linux于是放飞自我了。
 
 修好了路径问题接下来是图片无裁剪乱飞比如
-![渲染问题 w-30%](https://box.pgntgz.top/BB54227C04DE88A3B4D42BDDA790839E.png)
-![奏大头 w-60%](https://box.pgntgz.top/694A6E4D40215F65334A6131321CAE34.png)
+![渲染问题 w-30%](https://box.pgntgz.top/posts/hoi4/BB54227C04DE88A3B4D42BDDA790839E.webp)
+![奏大头 w-60%](https://box.pgntgz.top/posts/hoi4/694A6E4D40215F65334A6131321CAE34.webp)
 
 
 后面干脆放弃了这个版本。
