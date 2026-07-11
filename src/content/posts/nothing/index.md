@@ -115,7 +115,7 @@ users.users.<你的用户名>.extraGroups = [ "adbusers" ];
 正常就会进fastboot
 运行解锁命令`fastboot flashing unlock
 这时候会出现下面的画面
-![BL](https://box.pgntgz.top/posts/nothing/bl.avif)
+![BL](https://box.pgntgz.top/posts/nothing/bl.avif)<center>*图 ：BL解锁页面*</center>
 ⚠️解锁会清除数据，请确定重要内容的备份
 接下来
 - 使用 **音量键** 切换选项。

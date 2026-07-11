@@ -12,7 +12,7 @@ tags:
   - 长篇
 image: https://box.pgntgz.top/posts/root/lsp.avif
 ---
-
+ 
 [google希望让android变成封闭系统！了解他并做些什么](https://keepandroidopen.org/zh-CN/)
 
 ⚠️作者也是小白，多是经验谈，如果你希望看一点硬核内容就算了
