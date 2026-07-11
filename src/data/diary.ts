@@ -118,6 +118,13 @@ const diaryData: DiaryItem[] = [
     date: "2026-07-05T15:16",
     images: [],
   },
+  {
+    id: 15,
+    content:
+      "不能理解为什么越来越多的人喜欢直接复制粘贴LLM的回答做评论或者贴文，你说你要是很牛逼的模型也就算了，GPT5.6啊，Fable 5啊，gemini……emm，3.5pro还没出。你他妈的动不动弄个垃机模型ai味大的一批，你复制粘贴的意义在哪里?我是不会用用不起?无了能够彰显，你他妈ai狂热还没消退以及你的傲慢之外真的没什么用。",
+    date: "2026-07-12T01:10",
+    images: ["https://box.pgntgz.top/posts/diary/20260712_llm_post.webp"],
+  },
 ];
 
 // 获取日记统计数据
