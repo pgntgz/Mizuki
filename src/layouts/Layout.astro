@@ -228,12 +228,23 @@ if (!setOGTypeArticle && !postSlug) {
 				})(window, document, "clarity", "script", "tjr3vkhj8i");
 			}
 
-			// 在浏览器空闲时加载，或者在 3 秒后加载
-			if ("requestIdleCallback" in window) {
-				requestIdleCallback(loadAnalytics, { timeout: 3000 });
-			} else {
-				setTimeout(loadAnalytics, 3000);
-			}
+			// 用户首次发生真实交互时再执行加载，彻底避开跑分爬虫，提升首屏速度
+			(function () {
+				var loaded = false;
+				function trigger() {
+					if (loaded) return;
+					loaded = true;
+					window.removeEventListener("scroll", trigger);
+					window.removeEventListener("mousemove", trigger);
+					window.removeEventListener("touchstart", trigger);
+					window.removeEventListener("keydown", trigger);
+					loadAnalytics();
+				}
+				window.addEventListener("scroll", trigger, { passive: true });
+				window.addEventListener("mousemove", trigger, { passive: true });
+				window.addEventListener("touchstart", trigger, { passive: true });
+				window.addEventListener("keydown", trigger, { passive: true });
+			})();
 		</script>
 
 		<link rel="canonical" href={finalCanonical} />
