@@ -63,7 +63,8 @@
 你可以使用任何自己喜欢的Matrix客户端联系我，我自己喜欢KDE的[NEOCHAT](https://apps.kde.org/zh-tw/neochat/)
 
 我的Matrix ID是
-@pgntgz:tchncs.de
+
+> @pgntgz:tchncs.de
 
 想要方便的联系加我的[dc](https://discord.com/users/1293906307232825497) 就是了
 
