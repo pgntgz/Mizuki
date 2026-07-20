@@ -125,6 +125,12 @@ const diaryData: DiaryItem[] = [
     date: "2026-07-12T01:10",
     images: ["https://box.pgntgz.top/posts/diary/20260712_llm_post.webp"],
   },
+  {
+    id: 16,
+    content:
+      "算是23号文的续，我觉得X有一种伪装幼稚症，动机不明的伪装自己在幼稚状态，感觉像是询问或者公布一些公认的东西的无意义的表演惊讶。emmm....说人话就是炒作，特别是GROK加入X真是个伟大的发明。哎，总之远离社交媒体是好的",
+    date: "2026-07-20T19:58",
+  },
 ];
 
 // 获取日记统计数据

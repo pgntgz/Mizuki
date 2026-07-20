@@ -10,7 +10,7 @@ tags:
   - android
 image: https://box.pgntgz.top/posts/bil/-9lddQkk6-ewcxK10T3cSr0-k8.avif
 ---
-首先，如果SEO恢复正常(*本站的Google SEO权重尚未超越我的osu！账号，很明显Google觉得相比技术问题，看我的osu！又拿了几个D更棒*)的话，这篇的看客不少应该只想看答案，我就先结果后测评吧
+首先，如果SEO恢复正常(*本站的Google SEO权重尚未超越我的osu！账号，很明显Google觉得相比技术问题，看我的osu！又[[v3]]拿了几个D更棒*)的话，这篇的看客不少应该只想看答案，我就先结果后测评吧
 
 免责声明：
 以下打分完全凭本人喜好，图一乐
