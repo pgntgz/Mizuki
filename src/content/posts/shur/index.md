@@ -1,4 +1,5 @@
 ---
+alias: "shur/sr"
 title: 拒绝输入法泄漏—在android配置Fcitx5+雾凇拼音+本地语音输入
 published: 2026-05-30
 description: 介绍android端纯粹开源的输入法方案Fcitx5+中州韵插件+雾凇拼音+本地语音输入联动（说点啥+SenseVoice）

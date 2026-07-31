@@ -1,4 +1,5 @@
 ---
+alias: "hoi4/hoi4"
 title: HOI4mod开发者笔记
 published: 2026-06-20
 description: 在2026年和一个蠢B合作并让Ai完全编写一个mod是什么体验

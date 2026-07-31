@@ -1,4 +1,5 @@
 ---
+alias: "osu!/osu"
 title: 解决osu！在linux下的vulkan渲染bug
 published: 2026-04-03
 description: vulkan在我的linux上出现了图像撕裂bug,我解决了它。解决方式比我想的简单，正好水一期

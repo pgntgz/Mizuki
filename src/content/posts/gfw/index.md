@@ -1,4 +1,5 @@
 ---
+alias: "gfw/gfw"
 title: GFW和代理工具的发展史（上）
 published: 2026-04-16
 description: 介绍从石器时代到SS的GFW发展史，因为GFW最近的封锁有了这个想法，当当赛博史官。从互联网诞生之初，到Google在中国的历程，Google死掉后的GoAgent和西厢计划。以及shadowsocks的降临

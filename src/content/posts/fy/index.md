@@ -1,4 +1,5 @@
 ---
+alias: "fy/沉浸式翻译的开源替代——简约翻译的使用"
 title: 沉浸式翻译的开源替代——简约翻译的使用体验教程
 published: 2026-04-01
 description: 简单介绍KISS Translator和基本使用
