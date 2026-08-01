@@ -81,7 +81,7 @@ SS而后各种的代理协议和客户端涌现，基本有了现在的雏形。
 
 
 
-![Pasted image 20260727213633](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727213633.webp)
+![Pasted image 20260727213633 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727213633.webp)
 <center>*SS客户端LOGO*</center>
 
 [^3]周恩来曾说：“中央政治局的中央政治就是处理好毛主席、林副主席、江青同志的关系”
@@ -135,7 +135,7 @@ Roger 收到
 ![Pasted image 20260731203254](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260731203254.webp)
 <center>*按5%的指标抓间谍！*</center>
 但是说到底客观上**模糊不清的许可证问题对于V2ray的开发工作是颗大雷**，最终V2ray维护者们还是经过投票确认XTLS不符合V2ray承诺遵守的MIT协议，并在V2ray-core 4.33.0版本移除了XTLS。RPRX则带着XTLS自己建立了project X。
-![Pasted image 20260801142627](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801142627.webp)
+![Pasted image 20260801142627 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801142627.webp)
 <center>*project X*</center>
 不过幽默的是RPRX后续还是妥协了，还是在project X把许可证换成了符合OSI标准的MPL-2.0。大批GUI客户端这才开始放心的把内核换成更优秀的X-core，XTLS的优秀特性至此才真正面向大众。X-core逐渐取代V2ray成为V2ray系主流。
 
@@ -144,7 +144,7 @@ Roger 收到
 
 ### Clash
 而大家熟悉的GO写成的“小猫咪”Clash于 2018 年前后在 GitHub 上开源。在V2ray的分裂中Clash依靠简单稳定的特性迅速崛起，一路高歌猛进长期是最受欢迎的代理核心。
-![Pasted image 20260727214354](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727214354.webp)
+![Pasted image 20260727214354 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727214354.webp)
 <center>*clash*</center>
 Clash的开发中没有发生许可证的闹剧，早期Clash是MIT后面换了GPL。不过Clash同样遭遇过这样的悲剧——Clash删库
 
@@ -175,7 +175,7 @@ Clash的开发中没有发生许可证的闹剧，早期Clash是MIT后面换了G
 sing-box的作者nekohasekai曾做过大名鼎鼎的SagerNet，可能是觉得做GUI救不了中国人，他转让SagerNet后转头写了sing-box。
 
 sing-box有优秀的节点兼容性，在服务端大火了一把。sing-box普及是在Clash遭遇大洪水后的事情。
-![Pasted image 20260727214425](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727214425.webp)
+![Pasted image 20260727214425 w-20%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727214425.webp)
 <center>*sing-box*</center>
 
 nekohasekai本人简直就是劳模,他的github绿墙简直是在cos地铁的马赛克墙。加上来自著名的艺术家アボガド6的头像其主页的感觉强烈的克制感。事实上这种风格延续在了其开发的项目中。
@@ -183,7 +183,7 @@ nekohasekai本人简直就是劳模,他的github绿墙简直是在cos地铁的�
 sing-box采用了严格的GPLv3，这导致使用的客户端必须自己也用GPLv3开源。nekohasekai本人很看不惯以纯粹商业动机写GUI的，sing-box的文档中推荐GUI客户端的页面称[^12]“此处没有列出一些声称使用或以 sing-box 为卖点的第三方项目。此类此类项目维护者的动机是获得更多用户，即使它们提供友好的商业 VPN 客户端功能， 但代码质量很差且包含广告。”所以很少用sing-box的GUI客户端。而nekohasekai的解决方法十分**简单粗暴**——**我全做了**
 
 他一人维护了原生的Android，IOS，MAC，[^10]就在最近7月14号他还搞定了Windows客户端。而且nekohasekai的前端水平一样无可挑剔的完美。就拿Android版本说，sing-box-for-android不但是极其现代的MD3应用，还支持了ROOT增强抗检测能力，成功上架了最开源洁癖的f-droid的主仓库，市面仅此一家属于是。
-![Pasted image 20260801150000](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801150000.webp)
+![Pasted image 20260801150000 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801150000.webp)
 <center>*Sing-box安卓客户端*</center>
 
 nekohasekai一样无法免俗的有争议——他对代码貌似有近乎偏执的执着，sing-box最受争议的就是sing-box一直在优化性能和追求新的功能但没有考虑用户体验。sing-box对配置文件JOSN的语法偏执的严格，并且语法规范变化极快，很少机场愿意维护适用于sing-box最新版本的配置文件，使用sing-box需要用户自己改JOSN，这大概也是sing-box客户端那么完美还是不流行的原因。
@@ -217,11 +217,11 @@ nekobox的配置比sing-box好写点，nekobox兼容旧的sing-box语法，同�
 这类VPN提供商和一般国家以防监控为目的的VPN公司（NordVPN，mullvad之类）这类VPN提供商一般会打“擦边球”比如“XXX加速器”或者叫“XXXVPN”。他们常常不提供下载节点配置，客户端一般是直接集成了简单的代理协议。用户只需要获得额度然后链接就可以了。当然相应的就是用户可以选择的自定义极少。而且客服端不开源，完全无法保证数据案安全性。
 
 这类软件在商业化上比较奇特，有的卖的死贵，往往很烂的线路和更低的自由度可以卖的比中端机场贵，比如大名鼎鼎的快连。本质是在打信息差。
-![Pasted image 20260728142946](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260728142946.webp)
+![Pasted image 20260728142946 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260728142946.webp)
 <center>*快连LOGO*</center>
 而有的额度又很慷慨，当然表面的理由是广告收入——不过大家都知道的就是**广告那点收入怎么可能可以覆盖运营成本**，很明显的他们是在卖用户的资讯,也就是钓鱼VPN，其中最著名的就是老王VPN。也就X上的傻逼会在这种原则性问题上吵，[^4]全中国团队运营，没有交流组，不可以导出配置，看NSFW没事，翻墙爱党没事，上敏感网站秒抓。**不是厂商把你的日志卖了还能怎么回事啊？**
 
-![Pasted image 20260728144808](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260728144808.webp)
+![Pasted image 20260728144808 w-50%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260728144808.webp)
 <center>*操你妈，我翻墙是看黄的*</center>
 我在我之前做的[隐私卡](https://yinsi.pgntgz.top/create) 中总结为类快连和类老王。
 
