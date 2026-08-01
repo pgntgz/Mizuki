@@ -41,7 +41,7 @@ GFW的维护需要政府实打实的雇佣专业的网络安全团队盯着识�
 [^2]事实也的确如此，这一切的开始clowwindy本人在GAE被封SS高歌猛进的2015年8月22日被相关部门约谈，随后其锁推并且停止了SS的维护工作。不过正如文泉驿的标语“ **开彼源兮，斯流永继**”。SS带来的时代已经到来了，不会也不可能会因为一次抓捕行动就回去。
 
 ### 争议
-首先就是clowwindy本人的一些争议，clowwindy的时代和西厢计划那个时代不同，互联网普及使得网民人均数码素养降低，clowwindy发布SS导致了一轮"github热"，一堆毫无数码素养的伸手党搞得clowwindy很😅，[^13]
+首先就是clowwindy本人的一些争议，clowwindy的时代和西厢计划那个时代不同，互联网普及使得网民人均数码素养降低，clowwindy发布SS导致了一轮"github热"，一堆毫无数码素养的伸手党搞得clowwindy很😅，[^3]
 
 这使得clowwindy神友人格大爆发，发了不少暴论比如：
 
@@ -84,7 +84,7 @@ SS而后各种的代理协议和客户端涌现，基本有了现在的雏形。
 ![Pasted image 20260727213633 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727213633.webp)
 <center>*SS客户端LOGO*</center>
 
-[^3]周恩来曾说：“中央政治局的中央政治就是处理好毛主席、林副主席、江青同志的关系”
+[^4]周恩来曾说：“中央政治局的中央政治就是处理好毛主席、林副主席、江青同志的关系”
 
 我个人的体感是SS后的代理主要就是这V2ray,clash,sing-box3个项目和其衍生的历史。无数前赴后继的开源贡献者构筑了我们所熟悉的理所当然的现在。
 
@@ -180,15 +180,15 @@ sing-box有优秀的节点兼容性，在服务端大火了一把。sing-box普�
 
 nekohasekai本人简直就是劳模,他的github绿墙简直是在cos地铁的马赛克墙。加上来自著名的艺术家アボガド6的头像其主页的感觉强烈的克制感。事实上这种风格延续在了其开发的项目中。
 ![Pasted image 20260801115253](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801115253.webp)
-sing-box采用了严格的GPLv3，这导致使用的客户端必须自己也用GPLv3开源。nekohasekai本人很看不惯以纯粹商业动机写GUI的，sing-box的文档中推荐GUI客户端的页面称[^12]“此处没有列出一些声称使用或以 sing-box 为卖点的第三方项目。此类此类项目维护者的动机是获得更多用户，即使它们提供友好的商业 VPN 客户端功能， 但代码质量很差且包含广告。”所以很少用sing-box的GUI客户端。而nekohasekai的解决方法十分**简单粗暴**——**我全做了**
+sing-box采用了严格的GPLv3，这导致使用的客户端必须自己也用GPLv3开源。nekohasekai本人很看不惯以纯粹商业动机写GUI的，sing-box的文档中推荐GUI客户端的页面称[^10]“此处没有列出一些声称使用或以 sing-box 为卖点的第三方项目。此类此类项目维护者的动机是获得更多用户，即使它们提供友好的商业 VPN 客户端功能， 但代码质量很差且包含广告。”所以很少用sing-box的GUI客户端。而nekohasekai的解决方法十分**简单粗暴**——**我全做了**
 
-他一人维护了原生的Android，IOS，MAC，[^10]就在最近7月14号他还搞定了Windows客户端。而且nekohasekai的前端水平一样无可挑剔的完美。就拿Android版本说，sing-box-for-android不但是极其现代的MD3应用，还支持了ROOT增强抗检测能力，成功上架了最开源洁癖的f-droid的主仓库，市面仅此一家属于是。
+他一人维护了原生的Android，IOS，MAC，[^11]就在最近7月14号他还搞定了Windows客户端。而且nekohasekai的前端水平一样无可挑剔的完美。就拿Android版本说，sing-box-for-android不但是极其现代的MD3应用，还支持了ROOT增强抗检测能力，成功上架了最开源洁癖的f-droid的主仓库，市面仅此一家属于是。
 ![Pasted image 20260801150000 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801150000.webp)
 <center>*Sing-box安卓客户端*</center>
 
 nekohasekai一样无法免俗的有争议——他对代码貌似有近乎偏执的执着，sing-box最受争议的就是sing-box一直在优化性能和追求新的功能但没有考虑用户体验。sing-box对配置文件JOSN的语法偏执的严格，并且语法规范变化极快，很少机场愿意维护适用于sing-box最新版本的配置文件，使用sing-box需要用户自己改JOSN，这大概也是sing-box客户端那么完美还是不流行的原因。
 
-nekohasekai引发最大的吵架是[^11]Xray呼吁不要用sing-box，因为nekohasekai对V2ray Xray这群老东西很不屑。还嘲讽很多客户端接机场广告（参见上文）说不过结果是这篇AI写的大字报哪怕发在/Xray-core的讨论组，同温层里结果还是146赞61倒赞。可见又是争议话题
+nekohasekai引发最大的吵架是[^12]Xray呼吁不要用sing-box，因为nekohasekai对V2ray Xray这群老东西很不屑。还嘲讽很多客户端接机场广告（参见上文）说不过结果是这篇AI写的大字报哪怕发在/Xray-core的讨论组，同温层里结果还是146赞61倒赞。可见又是争议话题
 
 不过令人感叹的是SagerNet项目被nekohasekai交给MatsuriDayo和其他维护者组成Matsuri，Matsuri后来有衍生出nekoray和nekobox，慢慢的neoray停止维护......nekohasekai意外又不意外的促成了sing-box目前最受欢迎的客户端——nekobox。
 ![Pasted image 20260801145457 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801145457.webp)
@@ -219,7 +219,7 @@ nekobox的配置比sing-box好写点，nekobox兼容旧的sing-box语法，同�
 这类软件在商业化上比较奇特，有的卖的死贵，往往很烂的线路和更低的自由度可以卖的比中端机场贵，比如大名鼎鼎的快连。本质是在打信息差。
 ![Pasted image 20260728142946 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260728142946.webp)
 <center>*快连LOGO*</center>
-而有的额度又很慷慨，当然表面的理由是广告收入——不过大家都知道的就是**广告那点收入怎么可能可以覆盖运营成本**，很明显的他们是在卖用户的资讯,也就是钓鱼VPN，其中最著名的就是老王VPN。也就X上的傻逼会在这种原则性问题上吵，[^4]全中国团队运营，没有交流组，不可以导出配置，看NSFW没事，翻墙爱党没事，上敏感网站秒抓。**不是厂商把你的日志卖了还能怎么回事啊？**
+而有的额度又很慷慨，当然表面的理由是广告收入——不过大家都知道的就是**广告那点收入怎么可能可以覆盖运营成本**，很明显的他们是在卖用户的资讯,也就是钓鱼VPN，其中最著名的就是老王VPN。也就X上的傻逼会在这种原则性问题上吵，[^13]全中国团队运营，没有交流组，不可以导出配置，看NSFW没事，翻墙爱党没事，上敏感网站秒抓。**不是厂商把你的日志卖了还能怎么回事啊？**
 
 ![Pasted image 20260728144808 w-50%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260728144808.webp)
 <center>*操你妈，我翻墙是看黄的*</center>
@@ -272,13 +272,14 @@ nekobox的配置比sing-box好写点，nekobox兼容旧的sing-box语法，同�
 
 
 
+
 [^1]: [来源](https://www.chinagfw.org/2015/01/ghost-assassin_27.html)
 
 [^2]: [来源](https://chinadigitaltimes.net/chinese/403524.html)
 
-[^3]: [具体的时间我也忘了](https://www.youtube.com/watch?v=uLuQ0Gb2jog)
+[^3]: [来源](https://www.reddit.com/r/KanagawaWave/comments/1oqj2ox/%E7%BB%8F%E5%85%B8%E5%9B%9E%E9%A1%BE%E4%B9%8Bshadowsocks%E4%BD%9C%E8%80%85%E5%B7%B2%E9%BB%91%E5%8C%96/)
 
-[^4]: [这来源文章真一般说实话，不过确实这种明显的问题都不值得吵](https://lifebuddies.hk/wangvpn-review/)
+[^4]: [具体的时间我也忘了](https://www.youtube.com/watch?v=uLuQ0Gb2jog)
 
 [^5]: [来源](https://ggame.gledos.science/anti-censorship/VPN/V2Ray.html)
 
@@ -319,10 +320,10 @@ nekobox的配置比sing-box好写点，nekobox兼容旧的sing-box语法，同�
 
 [^9]: [讨论](https://www.reddit.com/r/China_irl/comments/17nh1i8/clash_for_windows%E5%88%A0%E5%BA%93%E5%81%9C%E6%9B%B4%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B8%AD%E5%85%B1%E6%9C%89%E5%8A%A8%E4%BD%9C%E4%BA%86/)
 
-[^10]: [来源](https://xcancel.com/nek0hasekai/status/2076962869942296913)
+[^10]: [来源](https://sing-box.sagernet.org/zh/clients/)
 
-[^11]: [来源](https://github.com/XTLS/Xray-core/discussions/4753)
+[^11]: [来源](https://xcancel.com/nek0hasekai/status/2076962869942296913)
 
-[^12]: [来源](https://sing-box.sagernet.org/zh/clients/)
+[^12]: [来源](https://github.com/XTLS/Xray-core/discussions/4753)
 
-[^13]: [来源](https://www.reddit.com/r/KanagawaWave/comments/1oqj2ox/%E7%BB%8F%E5%85%B8%E5%9B%9E%E9%A1%BE%E4%B9%8Bshadowsocks%E4%BD%9C%E8%80%85%E5%B7%B2%E9%BB%91%E5%8C%96/)
+[^13]: [这来源文章真一般说实话，不过确实这种明显的问题都不值得吵](https://lifebuddies.hk/wangvpn-review/)
