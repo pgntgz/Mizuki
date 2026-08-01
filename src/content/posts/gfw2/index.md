@@ -135,6 +135,7 @@ Roger 收到
 ![Pasted image 20260731203254](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260731203254.webp)
 <center>*按5%的指标抓间谍！*</center>
 但是说到底客观上**模糊不清的许可证问题对于V2ray的开发工作是颗大雷**，最终V2ray维护者们还是经过投票确认XTLS不符合V2ray承诺遵守的MIT协议，并在V2ray-core 4.33.0版本移除了XTLS。RPRX则带着XTLS自己建立了project X。
+
 ![Xray w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801142627.webp)
 <center>*project X*</center>
 不过幽默的是RPRX后续还是妥协了，还是在project X把许可证换成了符合OSI标准的MPL-2.0。大批GUI客户端这才开始放心的把内核换成更优秀的X-core，XTLS的优秀特性至此才真正面向大众。X-core逐渐取代V2ray成为V2ray系主流。
