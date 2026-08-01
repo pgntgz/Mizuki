@@ -64,7 +64,7 @@
 
 我的Matrix ID是
 
-> @pgntgz:tchncs.de
+@pgntgz:tchncs.de
 
 想要方便的联系加我的[dc](https://discord.com/users/1293906307232825497) 就是了
 
