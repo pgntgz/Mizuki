@@ -135,7 +135,7 @@ Roger 收到
 ![Pasted image 20260731203254](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260731203254.webp)
 <center>*按5%的指标抓间谍！*</center>
 但是说到底客观上**模糊不清的许可证问题对于V2ray的开发工作是颗大雷**，最终V2ray维护者们还是经过投票确认XTLS不符合V2ray承诺遵守的MIT协议，并在V2ray-core 4.33.0版本移除了XTLS。RPRX则带着XTLS自己建立了project X。
-![Pasted image 20260801142627 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801142627.webp)
+![Xray w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801142627.webp)
 <center>*project X*</center>
 不过幽默的是RPRX后续还是妥协了，还是在project X把许可证换成了符合OSI标准的MPL-2.0。大批GUI客户端这才开始放心的把内核换成更优秀的X-core，XTLS的优秀特性至此才真正面向大众。X-core逐渐取代V2ray成为V2ray系主流。
 
@@ -175,7 +175,7 @@ Clash的开发中没有发生许可证的闹剧，早期Clash是MIT后面换了G
 sing-box的作者nekohasekai曾做过大名鼎鼎的SagerNet，可能是觉得做GUI救不了中国人，他转让SagerNet后转头写了sing-box。
 
 sing-box有优秀的节点兼容性，在服务端大火了一把。sing-box普及是在Clash遭遇大洪水后的事情。
-![Pasted image 20260727214425 w-20%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727214425.webp)
+![Pasted image 20260727214425 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260727214425.webp)
 <center>*sing-box*</center>
 
 nekohasekai本人简直就是劳模,他的github绿墙简直是在cos地铁的马赛克墙。加上来自著名的艺术家アボガド6的头像其主页的感觉强烈的克制感。事实上这种风格延续在了其开发的项目中。
@@ -191,7 +191,7 @@ nekohasekai一样无法免俗的有争议——他对代码貌似有近乎偏执
 nekohasekai引发最大的吵架是[^11]Xray呼吁不要用sing-box，因为nekohasekai对V2ray Xray这群老东西很不屑。还嘲讽很多客户端接机场广告（参见上文）说不过结果是这篇AI写的大字报哪怕发在/Xray-core的讨论组，同温层里结果还是146赞61倒赞。可见又是争议话题
 
 不过令人感叹的是SagerNet项目被nekohasekai交给MatsuriDayo和其他维护者组成Matsuri，Matsuri后来有衍生出nekoray和nekobox，慢慢的neoray停止维护......nekohasekai意外又不意外的促成了sing-box目前最受欢迎的客户端——nekobox。
-![Pasted image 20260801145457](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801145457.webp)
+![Pasted image 20260801145457 w-30%](https://box.pgntgz.top/posts/gfw2/Pasted%20image%2020260801145457.webp)
 <center>*NEKOBOX*</center>
 
 nekobox的配置比sing-box好写点，nekobox兼容旧的sing-box语法，同时有sing-box内核强大的支持使得其的表现优于Clash和V2ray系的软件。nekobox目前是sing-box最受欢迎的客户端。
